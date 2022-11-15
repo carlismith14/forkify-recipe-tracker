@@ -9,7 +9,7 @@ import addRecipeView from './views/addRecipeView.js';
 
 
 import 'regenerator-runtime/runtime';
-import 'core-js/stable';
+// import 'core-js/stable';
 
 // this is not js this is coming from parcel. idk what it is
 // if(module.hot) {
