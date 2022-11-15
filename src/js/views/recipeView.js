@@ -2,7 +2,9 @@ import View from './View.js';
 
 
 import icons from 'url:../../img/icons.svg'//PArcel 2 
-import {Fraction} from 'fractional';
+// import {Fraction} from 'fractional';
+import fracty from "fracty";
+
 // console.log(Fraction);
 // any libraries or packages we import from npm we  don't have to specify path just write names + then what they export
 
@@ -129,7 +131,7 @@ class RecipeView extends View {
               <svg class="recipe__icon">
                 <use href="${icons}#icon-check"></use>
               </svg>
-              <div class="recipe__quantity">${ing.quantity ? new Fraction(ing.quantity).toString(): ''}</div>
+              <div class="recipe__quantity">${ing.quantity ? new fracty(ing.quantity).toString(): ''}</div>
               <div class="recipe__description">
                 <span class="recipe__unit">${ing.unit}</span>
                 ${ing.description}
