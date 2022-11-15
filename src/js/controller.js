@@ -161,9 +161,6 @@ const controlAddRecipe = async function(newRecipe){
   // console.log(newRecipe);
 };
 
-const newFeature = function(){
-  console.log('Welcome to the application!');
-}
 
 //implementing publisher subscriber pattern 
 const init = function () {
@@ -174,7 +171,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  newFeature();
+
 };
 
 init();
