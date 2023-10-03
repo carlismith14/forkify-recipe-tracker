@@ -6,6 +6,7 @@ Forkify is a recipe application that provides users with the ability to explore 
 - HTML
 - SASS
 - ES6
+- API
 
 # Demo Link 
 https://forkify-carli.netlify.app
