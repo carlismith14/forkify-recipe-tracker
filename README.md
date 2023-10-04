@@ -2,7 +2,7 @@
 
 Forkify is a recipe application that provides users with the ability to explore hudreds of recipes, bookmark their preferred ones for later, and even custom upload their favorite family recipes. 
 
-## Technologies Used
+# Technologies Used
 - HTML
 - SASS
 - ES6
